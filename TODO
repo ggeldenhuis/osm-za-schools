@@ -1,4 +1,14 @@
 * Determine isced values for schools in South Africa
 ** Update wiki: http://wiki.openstreetmap.org/wiki/Key:isced:level
 
+* Determine fields we want. We don't want it all. Interested parties should be able to use a key value and map it with external data. 
 
+* Devise way of tracking progress, which schools have been mapped?
+
+* Import raw data
+
+* Filter out data that will not be used. Map filters for future use.
+
+* Document process on wiki as we go along or when we finished. It needs to be repeatable by anyone else
+
+* Devise update process as part of documentation.
