@@ -8,7 +8,15 @@
 * Import raw data
 
 * Filter out data that will not be used. Map filters for future use.
+Data to use:
+NatEmis
+Institution_Name
 
 * Document process on wiki as we go along or when we finished. It needs to be repeatable by anyone else
 
 * Devise update process as part of documentation.
+
+DataQuestions
+~~~~~~~~~~~~~
+
+
