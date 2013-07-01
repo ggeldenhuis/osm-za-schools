@@ -1,13 +1,18 @@
-SOURCES := $(wildcard *.csv)
+SOURCES := $(wildcard *.vrt)
 
-OBJS := $(patsubst %.csv, %.gml, $(SOURCES))
+GMLS := $(patsubst %.vrt, %.gml, $(SOURCES))
+OSMS := $(patsubst %.vrt, %.osm, $(SOURCES))
 
-%.gml: %.csv
+%.gml: %.vrt
 	ogr2ogr -a_srs EPSG:4326 -f gml $@ $<
 
-all: gml
+%.osm: %.vrt
+	ogr2osm -e 4326 -o $@ $<
 
-gml: $(OBJS)
+all: osm
+
+gml: $(GMLS)
+osm: $(OSMS)
 
 clean:
-	rm -rf $(OBJS)
+	rm -rf $(GMLS) $(OSMS)
