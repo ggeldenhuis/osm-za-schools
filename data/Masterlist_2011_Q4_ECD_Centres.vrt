@@ -1,0 +1,8 @@
+<OGRVRTDataSource>
+	<OGRVRTLayer name="Masterlist_2011_Q4_ECD_Centres">
+		<SrcDataSource>Masterlist_2011_Q4_ECD_Centres.csv</SrcDataSource>
+		<GeometryType>wkbPoint</GeometryType>
+		<LayerSRS>WGS84</LayerSRS>
+		<GeometryField encoding="PointFromColumns" x="GIS_Long" y="GIS_Lat"/>
+	</OGRVRTLayer>
+</OGRVRTDataSource>

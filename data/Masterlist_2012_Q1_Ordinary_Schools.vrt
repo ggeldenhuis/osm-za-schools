@@ -1,0 +1,8 @@
+<OGRVRTDataSource>
+	<OGRVRTLayer name="Masterlist_2012_Q1_Ordinary_Schools">
+		<SrcDataSource>Masterlist_2012_Q1_Ordinary_Schools.csv</SrcDataSource>
+		<GeometryType>wkbPoint</GeometryType>
+		<LayerSRS>WGS84</LayerSRS>
+		<GeometryField encoding="PointFromColumns" x="GIS_Long" y="GIS_Lat"/>
+	</OGRVRTLayer>
+</OGRVRTDataSource>
